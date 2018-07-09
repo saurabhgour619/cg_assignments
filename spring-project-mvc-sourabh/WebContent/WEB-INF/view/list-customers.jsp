@@ -11,19 +11,19 @@
 <body>
 	<div id="wrapper">
 		<div id="header">
-			<h2>CRM - Customer Relationship Manager</h2>
+			<h2>List Details:</h2>
+			<hr>
 		</div>
 	</div>
 
 	<div id="container">
 		<div id="content">
 			<!-- put new button: Add Customer -->
-			<input type="button" value="Add Customer"
+			<br> <input type="button" value="Add Customer"
 				onclick="window.location.href='showFormForAdd'; return false;"
-				class="add-button" />
-
+				class="add-button" /> <br><br>
 			<!--  add our html table here -->
-			<table>
+			<table border="1">
 				<tr>
 					<th>First Name</th>
 					<th>Last Name</th>
